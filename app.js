@@ -1,7 +1,7 @@
-let add = (a,b) => a+b; //operator addition function
-let subtract = (a,b) => a-b; // operator subtraction function
-let multiply = (a,b) => a*b; // operator multiplication function
-let divide = (a,b) => a / b; // operator division function 
+let add = (a,b) => (a+b).toFixed(3); //operator addition function
+let subtract = (a,b) =>  (a-b).toFixed(3); // operator subtraction function
+let multiply = (a,b) => (a*b).toFixed(3); // operator multiplication function
+let divide = (a,b) => (a/b).toFixed(3); // operator division function 
 let firstValue = 0; // first stored value 
 let secondValue = 0; // second stored value 
 let chosenOperator = ""; // chosen operator initialized to blank
