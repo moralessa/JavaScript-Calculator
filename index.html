@@ -5,33 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cacedf9b8e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Calculator</title>
 </head>
 <body>
     <main class="container">
-        <div class="userInput">in</div>
-        <div class="output">out</div>
-        <div class="AC gi">AC</div>
-        <div class="del gi">DEL</div>
-        <div class="div gi">&#247;</div>
-        <div class="one gi">1</div>
-        <div class="two gi">2</div>
-        <div class="three gi">3</div>
-        <div class="mult gi">*</div>
-        <div class="four gi">4</div>
-        <div class="five gi">5</div>
-        <div class="six gi">6</div>
-        <div class="add gi">+</div>
-        <div class="seven gi">7</div>
-        <div class="eight gi">8</div>
-        <div class="nine gi">9</div>
-        <div class="sub gi">-</div>
-        <div class="decimal gi">.</div>
-        <div class="zero gi">0</div>
-        <div class="equals gi">=</div>
+        <div id="input" class="userInput"></div>
+        <div id="output" class="output"></div>
+        <div id="clear" class="AC gi">AC</div>
+        <div id="delete" data-key="8" class="del gi">DEL</div>
+        <div id="divide"class="div gi" value="/">&#247;</div>
+        <div id="one" data-key="97" class="one gi" value="1">1</div>
+        <div id="two" data-key="98"  class="two gi" value="2">2</div>
+        <div id="three" data-key="99" class="three gi" value="3">3</div>
+        <div id="multiply" data-key="106" class="mult gi" value="*">*</div>
+        <div id="four" data-key="100" class="four gi"value="4">4</div>
+        <div id="five" data-key="101" class="five gi"value="5">5</div>
+        <div id="six" data-key="102" class="six gi"value ="6">6</div>
+        <div id="add" data-key="107" class="add gi" value="+">+</div>
+        <div id="seven" data-key="103" class="seven gi" value="7">7</div>
+        <div id="eight" data-key="104" class="eight gi" value="8">8</div>
+        <div id="nine" data-key="105" class="nine gi"value="9">9</div>
+        <div id="subtract" data-key="109" class="sub gi" value="-">-</div>
+        <div id="decimal" data-key="110" class="decimal gi" value=".">.</div>
+        <div id="zero" data-key="96" class="zero gi" value="0">0</div>
+        <div id="equals" data-key="13" class="equals gi">=</div>
+
     </main>
+    <h3><a href="https://github.com/moralessa/OdinProjectCalculator" target="_blank">moralessa <i class="fab fa-github"></i></a></h3>
+
+    <script src="app.js"></script>
 </body>
 </html>
