@@ -122,6 +122,9 @@ window.addEventListener('keydown', (e)=>{ // keyboard functionality for selectin
         d();
         return;
     }
+
+    if(e.keyCode == 27){ AC();}
+
     if(e.keyCode == 110 && input.textContent.includes('.')){return;} // no repeating decimal points
     if(e.keyCode == 107 || e.keyCode == 111 || e.keyCode == 106 || e.keyCode == 109){ // operation functionality
         let key = document.querySelector(`.gi[data-key="${e.keyCode}"]`);
