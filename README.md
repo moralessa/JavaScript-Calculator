@@ -1,5 +1,4 @@
-# OdinProjectCalculator
-This is my version of the calculator project off the odin project foundations.
-I created this using HTML, CSS, and JS
+# Javascript Calculator
+A simple calculator built using HTML, CSS and Javascript
 <br/>
 [Live Demo](https://moralessa.github.io/JavaScript-Calculator/) :point_left:
